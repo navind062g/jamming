@@ -1,8 +1,8 @@
 // @ts-nocheck
 let accessToken = "";
 const clientId = "407f15f6d18841448889efb127af757e";
-//const redirectURI = "http://localhost:3000/";
-const redirectURI = 'http://my-react-jamming.surge.sh/';
+const redirectURI = "http://localhost:3000/";
+//const redirectURI = 'http://my-react-jamming.surge.sh/';
 
 let Spotify = {
   getAccessToken() {
@@ -46,6 +46,7 @@ let Spotify = {
           return {
             id: track.id,
             name: track.name,
+            album: track.album.name,
             artist: track.artists[0].name,
             uri: track.uri,
           };
