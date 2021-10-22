@@ -1,6 +1,6 @@
 // @ts-nocheck
 let accessToken = "";
-const clientId = "407f15f6d18841448889efb127af757e";
+const clientId = "";
 const redirectURI = "http://localhost:3000/";
 //const redirectURI = 'http://my-react-jamming.surge.sh/';
 
